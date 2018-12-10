@@ -22,7 +22,7 @@ Our best result was achieved with a combination of datasets 1 and 3.
 
 # Dataset Preprocessing and Feature Extraction Steps
 Though the ML algorithm will learn the final necessary features from the data, the raw images can be preprocessed to remove certain unnecessary information (nuisance parameters) such as noise, lighting conditions etc. and certain face-related features can be extracted before passing to the algorithm.
-* Face Cropping from each image using the haar cascade classifier `haarcascade_frontalface_default.xml` and resizing to either a 32*32 or 64*64 image.
+* Face Cropping from each image using the haar cascade classifier `haarcascade_frontalface_default.xml` and resizing to either a 32x32 or 64x64 image.
 * Denoising(using cv2.fastNlMeansDenoising) : Novel fast algorithm based on the similarity of spatially sampled pixels 
 * Gaussian Blur : Uses a gaussian function to smoothen the image and further remove noise.
 * Histogram Equalisation:  A technique for adjusting image intensities to enhance contrast.

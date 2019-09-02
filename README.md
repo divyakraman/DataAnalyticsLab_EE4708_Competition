@@ -1,4 +1,4 @@
-# DataAnalyticsLab_EE4708_Competition 
+# DataAnalyticsLab_EE4708_Competition  
 This repository contains codes used for the [Kaggle competition](https://www.kaggle.com/c/data-analytics-4708-face-verfication/leaderboard)(Team Name : Gesichtsüberprüfung) for the course Data Analytics Lab(EE4708).
 
 # Dependencies
